@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    /* 基本オプション */
+    "target": "es5",
+    "lib": ["es6", "dom", "dom.iterable", "es2015.symbol"],
+    "module": "es2015",
+    "types": ["react", "node"],
+
+    /* jsxオプション */
+    "jsx": "react",
+
+    /* 出力先オプション */
+    "outDir": "./dist/",
+
+    /* js周りのオプション */
+    "allowJs": true,
+    "checkJs": false,
+
+    /* ソースマップオプション */
+    "sourceMap": true,
+    "inlineSources": true,
+    // "inlineSourceMap": true,
+
+    /* 厳密な型チェックオプション */
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* モジュール解決オプション*/
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+    // "baseUrl": "./", // 非絶対モジュール名を解決するためのベースディレクトリ
+    // "paths": {},     // 'baseUrl'に相対的な参照位置にインポートを再マップする一連のエントリ
+  },
+  // コンパイルする対象ファイルを記述
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules"
+  ],
+}
