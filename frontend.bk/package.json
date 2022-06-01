@@ -36,7 +36,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "prettier": "^2.0.5",
     "responsive-loader": "^1.2.0",
-    "sharp": "^0.25.4",
+    "sharp": "^0.30.5",
     "style-loader": "^1.2.1",
     "ts-loader": "^8.0.1",
     "typescript": "^3.9.7",
